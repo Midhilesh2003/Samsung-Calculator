@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <script src="calculator.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div id="display-field">
+        <div id="problem-field"></div>
+        <div id="working-answer-field">
+        </div>
+    </div>
+    <div id="in-between-field">
+        <div id="backspace-row">
+            <button id="backspace"><i class="las la-backspace"></i></button>
+        </div>
+    </div>
+    <div id="button-field">
+        <div id="button-container">
+            <div class="button-row">
+                <button class="btn" id="clear">C</button>
+                <button class="btn" id="squared">x²</button>
+                <button class="btn" id="percent" value="%">%</button>
+                <button class="btn operator-btn" id="division">÷</button>
+            </div>
+            <div class="button-row">
+                <button class="btn number-btn" id="seven" value=7>7</button>
+                <button class="btn number-btn" id="eight" value=8>8</button>
+                <button class="btn number-btn" id="nine" value=9>9</button>
+                <button class="btn operator-btn" id="multiply">×</button>
+            </div>
+            <div class="button-row">
+                <button class="btn number-btn" id="four" value=4>4</button>
+                <button class="btn number-btn" id="five" value=5>5</button>
+                <button class="btn number-btn" id="six" value=6>6</button>
+                <button class="btn operator-btn" id="minus">-</button>
+            </div>
+            <div class="button-row">
+                <button class="btn number-btn" id="one" value=1>1</button>
+                <button class="btn number-btn" id="two" value=2>2</button>
+                <button class="btn number-btn" id="three" value=3>3</button>
+                <button class="btn operator-btn" id="plus">+</button>
+            </div>
+            <div class="button-row">
+                <button class="btn" id="pos-neg">+/-</button>
+                <button class="btn number-btn" id="zero" value=0>0</button>
+                <button class="btn" id="decimal" value=.>.</button>
+                <button class="btn" id="equals">=</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

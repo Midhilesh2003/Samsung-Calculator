@@ -1,0 +1,170 @@
+html {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(217, 235, 247);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(240, 246, 252);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 94vw;
+    height: 95vh;
+    max-width: 400px;
+}
+
+#display-field {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 94vw;
+    height: 22vh;
+    max-width: 400px;
+}
+
+#problem-field {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    word-break: break-word;
+    justify-content: flex-end;
+    align-items: start;
+    width: 88vw;
+    height: 13vh;
+    max-width: 380px;
+    padding: 0 20px 0 0;
+    font-size: 40px;
+}
+
+#working-answer-field {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    width: 88vw;
+    height: 7vh;
+    max-width: 380px;
+    padding: 10px;
+    font-size: 25px;
+    color: grey;
+    /* Add this line to set the text color to grey */
+}
+
+
+#in-between-field {
+    font-family: 'Roboto', sans-serif;
+    width: 94vw;
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    max-width: 400px;
+}
+
+#backspace-row {
+    font-family: 'Roboto', sans-serif;
+    border-bottom: 2px solid rgb(229, 236, 240);
+    width: 90vw;
+    height: 5vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    max-width: 400px;
+}
+
+#backspace {
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    width: 20vw;
+    height: 5vh;
+    max-width: 100px;
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(240, 246, 252);
+    color: rgb(10, 121, 0);
+}
+
+#button-field {
+    font-family: 'Roboto', sans-serif;
+    width: 94vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    max-width: 400px;
+}
+
+#button-container {
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    height: 57vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-row {
+    font-family: 'Roboto', sans-serif;
+    width: 90vw;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    max-width: 370px;
+}
+
+.btn {
+    font-family: 'Roboto', sans-serif;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 2rem;
+    background-color: rgb(229, 236, 240);
+    border: none;
+}
+
+#clear {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(207, 3, 3);
+}
+
+#squared,
+#percent,
+#division,
+#multiply,
+#minus,
+#plus {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(10, 121, 0);
+}
+
+#equals {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(10, 121, 0);
+    color: white;
+}
+
+@media (min-width: 1200px) {
+    body {
+        border: 5px solid rgb(166, 178, 192);
+    }
+
+    .btn {
+        max-width: 80px;
+        max-height: 80px;
+    }
+
+    .btn:hover {
+        background-color: rgb(201, 208, 212);
+    }
+}
